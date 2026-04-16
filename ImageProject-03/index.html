@@ -8,15 +8,26 @@
       <!-- <a-box position="-1 0.5 -3" rotation="0 45 0" color="#4CC3D9"></a-box>
       <a-sphere position="0 1.25 -5" radius="1.25" color="#EF2D5E"></a-sphere>
       <a-cylinder position="1 0.75 -3" radius="0.5" height="1.5" color="#FFC65D"></a-cylinder> -->
-      <a-plane position="0 0 -4" rotation="-90 0 0" width="50" height="50" src="#grass"></a-plane>
+      <a-plane position="0 0 -4" rotation="-90 0 0" width="100" height="100" src="#dirt"></a-plane>
+
       <a-sky src="#background" color="#ECECEC"></a-sky>
-   <a-asset-item id="forest" src="assets/flower.gltf"></a-asset-item>
+      <a-obj-model src="#chicken" position="0 2.5 0" scale="0.005 0.005 0.005" color="brown"></a-obj-model>
+      <a-obj-model src="#horse" position="0 0 0" scale="0.3 0.3 0.3" color="chocolate"></a-obj-model>
+      <a-obj-model src="#cow" position="2 0 8" scale="0.3 0.3 0.3" rotation="0 -40 0" color="white"></a-obj-model>
+      <a-obj-model src="#barn" position="0 0 -20" scale="0.1 0.1 0.1" color="maroon" rotate="0 0 0"></a-obj-model>
+      <a-obj-model src="#bunny" position="5 0 0" scale="0.005 0.005 0.005" rotation="270 70 90" color="grey"></a-obj-model>
+
   <a-assets>
-    <a-asset-item id="forest" src="assets/flower.gltf"></a-asset-item>
+    <a-asset-item id="chicken" src="assets/Chicken_01.obj"></a-asset-item>
+    <a-asset-item id="cow" src="assets/Cow.obj"></a-asset-item>
+    <a-asset-item id="horse" src="assets/WildHorse.obj"></a-asset-item>
+    <a-asset-item id="bunny" src="assets/Rabbit_01(1).obj"></a-asset-item>
+    <a-asset-item id="barn" src="assets/1267 Farm.obj"></a-asset-item>
+    <img id="background" src="assets/equi-regular-sky.jpg">
+    <img id="dirt" src="assets/Dirt_texture.jpg">
+    <img id="horse-texture" src="assets/zj4inkhkzggyws1l0lmh4n5zl1mgmhy9dsihpb3rfotzg25befgeuhhjq1thssn7-o.avif">
+
   </a-assets>
-      <a-entity gltf-model="#forest"></a-entity>
-      <img id="background" src="assets/equi-regular-sky.jpg">
-      <!-- <img id="grass" src="assets/grass-texture.avif"> -->
-    </a-scene>
+  </a-scene>
   </body>
 </html>
